@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  color: #000;
+  font-style: normal;
+}
+
+.height-20 {
+  height: 20px;
+}
+
+.container {
+  max-width: 880px;
+}
+
+.wrapper {
+  padding: 30px 0;
+}
+
+.wrapper .app-list {
+  overflow: scroll;
+  border-right: 1px solid #ced4da;
+}
+
+.wrapper .app-list .card {
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper .app-view .card {
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
